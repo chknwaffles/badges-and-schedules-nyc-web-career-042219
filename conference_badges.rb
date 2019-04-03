@@ -15,4 +15,5 @@ def assign_rooms(list)
   rooms = []
   list.each_with_index do |n, i|
     rooms.push("Hello, #{name} You'll be assigned to room #{i}")
+  end
 end
