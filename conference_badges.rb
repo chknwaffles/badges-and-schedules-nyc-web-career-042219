@@ -13,7 +13,7 @@ end
 
 def assign_rooms(list)
   rooms = []
-  num = 0
+  num = 1
   list.each do |n|
     rooms.push("Hello, #{name} You'll be assigned to room #{num}")
     
