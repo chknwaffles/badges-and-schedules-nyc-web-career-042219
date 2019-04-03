@@ -13,8 +13,6 @@ end
 
 def assign_rooms(list)
   rooms = []
-  num = 1
   list.each do |n|
-    rooms.push("Hello, #{name} You'll be assigned to room #{num}")
-    num += 1
+    rooms.push("Hello, #{name} You'll be assigned to room #{i}")
 end
