@@ -12,5 +12,9 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(list)
-  
+  rooms = []
+  num = 0
+  list.each do |n|
+    rooms.push("Hello, #{name} You'll be assigned to room #{num}")
+    
 end
