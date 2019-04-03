@@ -22,3 +22,4 @@ end
 def printer
   list = batch_badge_creator
   assign_rooms(list)
+end
