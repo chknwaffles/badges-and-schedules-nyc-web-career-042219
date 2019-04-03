@@ -8,6 +8,7 @@ def batch_badge_creator(names)
   names.each do |n|
     batch.push(badge_maker(n))
   end
+  batch
 end
 
 def assign_rooms(list)
